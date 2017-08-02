@@ -1,0 +1,73 @@
+h1 {
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	border: solid;
+	background-color: white;
+	padding: 10px;
+}
+
+html, body {
+	background-color: lightgreen;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	width: 20%;
+}
+
+.intro {
+	font-size: 20px;
+	padding: 10px;
+	border-style: solid;
+	border-color: purple;
+	color: green;
+	background-color: yellow;
+	font-family: "Comic Sans MS", serif;
+	text-align: left;
+}
+
+.text {
+	border-style: double;
+	border-color: red;
+	font-size: 20px;
+	padding: 10px;
+	font-family: "Helvetica", serif;
+	color: orange;
+	background-color: blue;
+	text-align: left;
+}
+
+.pic {
+	float: left;
+	height: 200px;
+	width: 200px;
+	margin: 15px;	
+}
+
+.image-1 {
+	background-image: url("rm1.jpg");
+}
+
+.image-2 {
+	background-image: url("rm2.jpg");	
+}
+
+.image-3 {
+	background-image: url("rm3.jpg");	
+}
+
+.image-4 {
+	background-image: url("rm4.jpg");	
+}
+
+.clear {
+	clear: both;
+}
+
+@media all and (max-width: 600px) {
+	body {
+	background-color: lightblue;
+	}
+}
