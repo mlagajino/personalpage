@@ -8,6 +8,14 @@ h1 {
 	padding: 10px;
 }
 
+h1:hover {
+	background-color: yellow;
+}
+
+p:hover {
+	background-color: yellow;
+}
+
 html, body {
 	background-color: lightblue;
 }
@@ -115,6 +123,10 @@ li {
 	background-color: white;
 	font-family: "Comic Sans MS", serif;
 	text-align: left;
+}
+
+.contact:hover {
+	background-color: yellow;
 }
 
 .webgif {
