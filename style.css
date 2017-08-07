@@ -12,10 +12,6 @@ h1:hover {
 	background-color: yellow;
 }
 
-p:hover {
-	background-color: yellow;
-}
-
 html, body {
 	background-color: lightblue;
 }
@@ -27,26 +23,19 @@ img {
 	padding: 10px;
 }
 
-.intro {
-	font-size: 20px;
-	padding: 5px;
-	border-style: solid;
-	border-color: red;
-	color: black;
-	background-color: white;
-	font-family: "Comic Sans MS", serif;
-	text-align: left;
-}
-
 .text {
 	border-style: solid;
 	border-color: red;
-	font-size: 20px;
+	font-size: 18px;
 	padding: 5px;
 	font-family: "Comic Sans MS", serif;
 	color: black;
 	background-color: white;
 	text-align: left;
+}
+
+.text:hover {
+	background-color: yellow;
 }
 
 .pic {
@@ -115,7 +104,7 @@ li {
 }
 
 .contact {
-	font-size: 20px;
+	font-size: 18px;
 	padding: 10px;
 	border-style: solid;
 	border-color: red;
