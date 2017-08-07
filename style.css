@@ -2,13 +2,14 @@ h1 {
 	font-weight: bold;
 	text-align: center;
 	color: black;
-	border: solid;
+	border-style: solid;
+	border-color: red;
 	background-color: white;
 	padding: 10px;
 }
 
 html, body {
-	background-color: lightgreen;
+	background-color: lightblue;
 }
 
 img {
@@ -21,21 +22,21 @@ img {
 	font-size: 20px;
 	padding: 10px;
 	border-style: solid;
-	border-color: purple;
-	color: green;
-	background-color: yellow;
+	border-color: red;
+	color: black;
+	background-color: white;
 	font-family: "Comic Sans MS", serif;
 	text-align: left;
 }
 
 .text {
-	border-style: double;
+	border-style: solid;
 	border-color: red;
 	font-size: 20px;
 	padding: 10px;
-	font-family: "Helvetica", serif;
-	color: orange;
-	background-color: blue;
+	font-family: "Comic Sans MS", serif;
+	color: black;
+	background-color: white;
 	text-align: left;
 }
 
@@ -46,20 +47,58 @@ img {
 	margin: 15px;	
 }
 
+nav {
+	width: 100%
+	border-style: solid;
+	background-color: white;
+	list-style-type: none;
+	text-align: center;
+}
+
+nav:hover {
+	background-color: lightgreen;
+}
+
+li {
+	display: inline-block;
+	padding: 10px;
+	list-style-type: none;
+}
+
 .image-1 {
 	background-image: url("rm1.jpg");
+	background-size: cover;
+	background-position: center center;
 }
 
 .image-2 {
-	background-image: url("rm2.jpg");	
+	background-image: url("rm2.jpg");
+	background-size: cover;
+	background-position: center center;	
 }
 
 .image-3 {
 	background-image: url("rm3.jpg");	
+	background-size: cover;
+	background-position: center center;
 }
 
 .image-4 {
-	background-image: url("rm4.jpg");	
+	background-image: url("rm4.jpg");
+	background-size: cover;
+	background-position: center center;	
+}
+
+.image-5 {
+	background-image: url("rm5.jpg");
+	background-size: cover;
+	background-position: center center;	
+}
+
+.image-6 {
+	background-image: url("rm6.jpg");
+	background-size: cover;
+	background-position: center center;	
 }
 
 .clear {
@@ -68,6 +107,6 @@ img {
 
 @media all and (max-width: 600px) {
 	body {
-	background-color: lightblue;
+	background-color: orange;
 	}
 }
